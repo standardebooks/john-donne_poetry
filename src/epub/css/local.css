@@ -11,9 +11,14 @@
 }
 
 /* Dedication */
-[epub|type~="dedication"] header p{
+[epub|type~="dedication"] header{
 	font-variant: small-caps;
 	line-height: 2;
+	margin-top: 20vh;
+}
+
+[epub|type~="dedication"] > p:first-of-type + p{
+	text-indent: 0;
 }
 
 [epub|type~="dedication"] header b{
