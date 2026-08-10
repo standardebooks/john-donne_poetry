@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/john-donne/poetry</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2026-08-10T16:42:55Z</dc:date>
+		<meta property="dcterms:modified">2026-08-10T16:42:55Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
@@ -37,18 +37,18 @@
 		<meta property="schema:additionalType">http://schema.org/Collection</meta>
 		<meta property="schema:abstract">A collection of John Donne’s poetry.</meta>
 		<dc:description>
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/john-donne"&gt;John Donne&lt;/a&gt; wrote his poetry over several decades, from the 1590s through the early years of the seventeenth century, during a period of profound religious, political, and cultural change in England. Unlike many of his contemporaries, Donne did not publish a collection of his poems during his lifetime. Instead, they circulated privately in handwritten manuscripts among friends, patrons, and members of the educated elite, acquiring a wide readership long before they appeared in print. The first collected edition was published posthumously in 1633, two years after Donne’s death, and was followed by numerous expanded editions that included additional poems discovered in manuscript. This collection brings together Donne’s diverse body of work, from his youthful satires, elegies, and love lyrics to his later religious verse and Holy Sonnets, illustrating the remarkable range and enduring influence of one of the greatest poets of the English Renaissance.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/john-donne"&gt;John Donne&lt;/a&gt; composed poetry over the span of several decades, from the 1590s through the early years of the seventeenth century, during a period of profound religious, political, and cultural change in England. Unlike many of his contemporaries, Donne didn’t publish any collections of poetry during his lifetime. Instead, his poems circulated privately in handwritten manuscripts among friends, patrons, and members of the educated elite, acquiring a wide readership long before they appeared in print. The first collected edition was published posthumously in 1633, two years after Donne’s death, and was followed by numerous expanded editions that included additional poems discovered in manuscript. This collection brings together all of Donne’s diverse body of work, from his youthful satires, elegies, and love lyrics, to his later religious verses and Holy Sonnets, illustrating the remarkable range and enduring influence of one of the greatest poets of the English Renaissance.&lt;/p&gt;
 			&lt;p&gt;John Donne’s most popular poems include “The Flea,” “A Valediction Forbidding Mourning,” “The Sun Rising,” “The Canonization,” and “Holy Sonnet XIV.”&lt;/p&gt;
 		</dc:description>
 		<dc:language>en-GB</dc:language>
-		<!-- order of poems and source of missing poems -->
+		<!-- Order of poems and source of missing poems -->
 		<dc:source>https://archive.org/details/poemsofjohndonne01donn_1</dc:source>
 		<!-- Modern English versions of poems, Volume 1 -->
 		<dc:source>https://archive.org/details/poemswithelegie00chamgoog</dc:source>
 		<!-- Modern English versions of poems, Volume 2 -->
 		<dc:source>https://archive.org/details/poemswithelegie01chamgoog</dc:source>
-		<meta property="schema:wordCount">WORD_COUNT</meta>
-		<meta property="schema:educationalLevel">READING_EASE</meta>
+		<meta property="schema:wordCount">74686</meta>
+		<meta property="schema:educationalLevel">67.12</meta>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
 		<link href="https://github.com/standardebooks/john-donne_poetry" refines="#vcs-repository" rel="schema:codeRepository"/>
@@ -73,6 +73,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
+		<link href="https://www.robinwhittleton.com/" refines="#producer-2" rel="schema:url"/>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
